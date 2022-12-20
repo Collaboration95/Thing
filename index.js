@@ -3,7 +3,8 @@ const { application } = require("express")
 const express=require("express")
 const app=express()
 const path=require("path")
-const port=3000;
+
+const port=process.env.PORT || 3000;
 const mongoose = require('mongoose');
 id='mongodb+srv://yash1234:yash2003@cluster0.bzquy0i.mongodb.net/?retryWrites=true&w=majority'
 
